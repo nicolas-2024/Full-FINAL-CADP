@@ -1,0 +1,57 @@
+ Informática:
+  Es la ciencia que estudia el análisis y resolución de problemas utilizando computadoras. 
+
+Memoria estática:
+ La memoria estática es aquella donde se almacenan las variables de las cuales su tamaño no será alterado. Las variables solo cambian su contenido, no su tamaño.
+
+Memoria dinámica:
+ La memoria dinámica es aquella donde las variables a almacenar no tienen un tamaño definido, y podrán aumentar o disminuir su tamaño tanto les sea permitido por la misma.
+
+ Tipo de dato: El tipo de dato es un atributo, tanto para el ordenador, como para el programador, para saber qué valores manejará una variable declarada en memoria.
+Existen varios tipos de datos, y estos se dividen en simples y compuestos.
+SIMPLES: Integer, real, boolean, char y puntero.
+COMPUESTO: String y Estructuras (registró, lista y vector).
+DEFINIDOS POR EL PROGRAMADOR.
+El tipo de dato real no admite div y mod.
+
+Puntero:
+ Un puntero es un tipo de dato simple, que trabaja con la memoria dinámica, contiene la dirección de memoria, en memoria dinámica, donde se encuentra almacenado el dato real, este dato puede ser un entero, un real, un string, y los demás tipos de datos, inclusive otro puntero.
+
+Tipo de dato definido por el programador:
+  Un tipo de dato definido por el programador es un nuevo tipo de dato que define el programador, para su posterior uso en el programa. Este se puede obtener a partir de tipos de datos simples o compuestos. Sintaxis en pascal:
+
+Modularización: 
+La modularización sirve para separar el código, de forma lógica, en diferentes partes, encapsulando código relacionado.
+Ayuda a encontrar errores de forma más eficiente.
+Hace más legible el código.
+La reutilización es primordial cuando se habla de modularizar, evitamos programar el doble y reutilizamos el módulo en otra sección del código.
+
+Procedure y Function:
+En pascal existe el proceso y la función, que son dos formas de modularizar en un programa, estas están definidas por la siguiente sintaxis:
+
+Procedure nombreProceso (parámetros de E o E/S);
+Características de procedure:
+Podrá recibir datos, llamados parámetros por valor, y, eventualmente, podrá devolver datos, cuando el parámetro está definido por referencia.
+Puede recibir, pero no necesariamente retornar un valor.
+Puede no recibir ningún parámetro y funcionar igualmente.
+
+Function nombreFuncion (parámetros de entrada): tipoDeFuncion;
+Características de function:
+Podrá devolver un único valor, de tipo simple, definido en el encabezado de la función, luego de los parámetros.
+Podrá recibir datos, pero no retornar los mismos.
+Sus parámetros no pueden ser por referencia.
+Para retornar un valor, se debe asignar un valor al nombre de la función, que es similar a una variable, guarda su valor en esa posición de memoria, de lo contrario, retornará basura.
+
+Caracteristicas de procedure y function:
+Las variables definidas dentro de las mismas sólo serán exclusivas de estas, es decir, su alcance es local.
+Se podrán llamar procesos y funciones dentro de las mismas.
+Cuando se pasa un parámetro por valor, se realiza una copia de este dato, y podrá ser utilizada dentro del módulo sin alterar su valor original.
+Los parámetros, al igual que las variables declaradas dentro del módulo, son locales al módulo.
+Ambas pueden manipular variables globales.
+Se pueden declarar types dentro de las mismas.
+
+Diferencias:
+Procedure puede recibir parámetros de entrada, y también existe la opción de ser devueltos, function no tiene esta posibilidad, sólo podrá retornar un único valor.
+Los tipos de datos devueltos por estos son diferentes en cada uno, mientras el procedure puede recibir y devolver cualquier tipo de dato, function solo puede devolver datos de tipo simple.
+
+El tipo de dato que devolverá la función, al ser único, debe ser definido en el encabezado de la misma, y solo podrá devolver ese único tipo de dato, mientras que el proceso podrá devolver todos los tipos de datos que estén por referencia en la sección de parámetros.
